@@ -1,9 +1,42 @@
-.card{
-    width: 250px;
+html{
+    background-color: darkblue;
+    font-family: monospace;
+}
+
+.container{
+    max-width: 600px;
+    min-height: 100%;
     text-align: center;
     padding: 10px;
     border: 3px;
+    margin: auto;
     border-radius: 10px;
     border-style: solid;
-    border-color: #FFBFA9;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.highlighted{
+    margin: auto;
+    max-width: 500px;
+    color: whitesmoke;
+    border-radius: 5%;
+    border-color: darkblue;
+    background-color: darkblue;
+}
+
+img{
+    width:300px;
+    border: 6px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: darkblue;
+}
+
+
+.logo{
+    width:250px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: whitesmoke;
 }
